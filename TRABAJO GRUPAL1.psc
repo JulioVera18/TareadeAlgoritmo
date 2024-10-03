@@ -1,157 +1,157 @@
 Funcion principal
 		Definir opc Como Caracter
 		opc=""
-		Escribir "----- Menú de Opciones -----"
+		Escribir "----- MenÃº de Opciones -----"
 		Escribir "1. Mayor de 5 numeros  "
 		Escribir "2. Edad minima para votar"
-		Escribir "3. Números múltiplos"
-		Escribir "4. Número positivo, negativo o cero"
-		Escribir "5. Año bisiesto" 
+		Escribir "3. NÃºmeros mÃºltiplos"
+		Escribir "4. NÃºmero positivo, negativo o cero"
+		Escribir "5. AÃ±o bisiesto" 
 		Escribir "6. Signo Zodiacal" 
-		Escribir "7. Días del mes" 
+		Escribir "7. DÃ­as del mes" 
 		Escribir "8. Dia de la semana"
 		Escribir "9. Calculadora de precio con descuento"
 		Escribir "10. Calculadora de sueldo con aumento" 
-		Escribir "11. Calculadora de compra con múltiples artículos" 
+		Escribir "11. Calculadora de compra con mÃºltiples artÃ­culos" 
 		Escribir "12. Calculadora de impuestos sobre el salario"
 		Escribir "13. Bono por Antiguedad"
-		Escribir "14. Costo por envíos"
-		Escribir "15. Compras mensuales durante un año"
-		Escribir "16. Aplicación de descuentos por volumen de compra"
+		Escribir "14. Costo por envÃ­os"
+		Escribir "15. Compras mensuales durante un aÃ±o"
+		Escribir "16. AplicaciÃ³n de descuentos por volumen de compra"
 		Escribir "17. Horas de Servicio"
 		Escribir "18. Banquetes"
 		Escribir "19. Embarques"
 		Escribir "20. Costo de viaje de alumnos"
 		Escribir "21. Costo de viajes por tipos de autobuses"
 		Escribir "22. Letra de alfabeto"
-		Escribir "23. Vocal, digito, o simbolo de puntuación"
-		Escribir "24. Comparación de carácteres"
+		Escribir "23. Vocal, digito, o simbolo de puntuaciÃ³n"
+		Escribir "24. ComparaciÃ³n de carÃ¡cteres"
 		Escribir "25. Frases"
 		Escribir "Elija la opcion del (1-25): "
 		Leer opc
 		//Escribir "tu opcion es:",opc
 		Si opc="1" Entonces
-			Escribir "Has seleccionado la opción 1 "
-			Escribir "--- Mayor de 5 números ---"
+			Escribir "Has seleccionado la opciÃ³n 1 "
+			Escribir "--- Mayor de 5 nÃºmeros ---"
 			Ejercicio1
 		SiNo
 			Si opc="2" Entonces
-				Escribir "Has seleccionado la opción 2 "
-				Escribir  "--- Edad mínima para votar ---"
+				Escribir "Has seleccionado la opciÃ³n 2 "
+				Escribir  "--- Edad mÃ­nima para votar ---"
 				Ejercicio2
 			SiNo
 				Si opc="3" Entonces
-					Escribir "Has seleccionado la opción 3"
-					Escribir "--- Números múltiplos ---"
+					Escribir "Has seleccionado la opciÃ³n 3"
+					Escribir "--- NÃºmeros mÃºltiplos ---"
 					Ejercicio3
 				SiNo
 					Si opc="4" Entonces
-						Escribir "Has seleccionado la opción 4"
-						Escribir "--- Número positivo, negativo o cero ---"
+						Escribir "Has seleccionado la opciÃ³n 4"
+						Escribir "--- NÃºmero positivo, negativo o cero ---"
 						Ejercicio4
 					SiNo
 						Si opc="5" Entonces
-							Escribir "Has seleccionado la opción 5"
-							Escribir "--- Año bisiesto ---"
+							Escribir "Has seleccionado la opciÃ³n 5"
+							Escribir "--- AÃ±o bisiesto ---"
 							Ejercicio5
 						SiNo
 							Si opc="6" Entonces
-								Escribir "Has seleccionado la opción 6"
+								Escribir "Has seleccionado la opciÃ³n 6"
 								Escribir "---  Signo Zodiacal ---"
 								Ejercicio6
 							SiNo
 								Si opc="7" Entonces
-									Escribir "Has seleccionado la opción 7"
-									Escribir "--- Días del mes ---"
+									Escribir "Has seleccionado la opciÃ³n 7"
+									Escribir "--- DÃ­as del mes ---"
 									Ejercicio7
 								Sino 
 									Si opc="8" Entonces
-										Escribir "Has seleccionado la opción 8"
-										Escribir "---  Día de la semana ---"
+										Escribir "Has seleccionado la opciÃ³n 8"
+										Escribir "---  DÃ­a de la semana ---"
 										Ejercicio8
 									SiNo
 										Si opc=="9" Entonces
-											Escribir "Has seleccionado la opción 9"
+											Escribir "Has seleccionado la opciÃ³n 9"
 											Escribir "---  Calculadora de precio con descuento ---"
 											Ejercicio9
 										SiNo
 											Si opc="10" Entonces
-												Escribir "Has seleccionado la opción 10"
+												Escribir "Has seleccionado la opciÃ³n 10"
 												Escribir "---  Calculadora de sueldo con aumento ---"
 												Ejercicio10
 											SiNo
 												si opc="11" Entonces
-													Escribir "Has seleccionado la opción 11"
-													Escribir "---  Calculadora de compra con múltiples artículos ---"
+													Escribir "Has seleccionado la opciÃ³n 11"
+													Escribir "---  Calculadora de compra con mÃºltiples artÃ­culos ---"
 													Ejercicio11
 												SiNo
 													Si opc="12" Entonces
-														Escribir "Has seleccionado la opción 12"
+														Escribir "Has seleccionado la opciÃ³n 12"
 														Escribir "---  Calculadora de impuestos sobre el salario ---"
 														Ejercicio12
 													Sino 
 														Si opc="13" Entonces
-															Escribir "Has seleccionado la opción 13"
+															Escribir "Has seleccionado la opciÃ³n 13"
 															Escribir "---  Bono por antiguedad ---"
 															Ejercicio13
 														SiNo
 															Si opc="14" Entonces
-																Escribir "Has seleccionado la opción 14"
-																Escribir "---  Costo por envíos ---"
+																Escribir "Has seleccionado la opciÃ³n 14"
+																Escribir "---  Costo por envÃ­os ---"
 																Ejercicio14
 															SiNo
 																Si opc="15" Entonces
-																	Escribir "Has seleccionado la opción 15"
-																	Escribir "---  Compras mensuales durante un año  ---"
+																	Escribir "Has seleccionado la opciÃ³n 15"
+																	Escribir "---  Compras mensuales durante un aÃ±o  ---"
 																	Ejercicio15
 																SiNo
 																	Si opc="16" Entonces
-																		Escribir "Has seleccionado la opción 16"
-																		Escribir "---  Aplicación de descuentos por volumen de compra ---"
+																		Escribir "Has seleccionado la opciÃ³n 16"
+																		Escribir "---  AplicaciÃ³n de descuentos por volumen de compra ---"
 																		Ejercicio16
 																	SiNo
 																		Si opc="17" Entonces
-																			Escribir "Has seleccionado la opción 17"
+																			Escribir "Has seleccionado la opciÃ³n 17"
 																			Escribir "---  Horas de Servicio ---"
 																			Ejercicio17
 																		SiNo
 																			Si opc="18" Entonces
-																				Escribir "Has seleccionado la opción 18"
+																				Escribir "Has seleccionado la opciÃ³n 18"
 																				Escribir "---  Banquetes ---"
 																				Ejercicio18
 																			Sino 
 																				Si opc="19" Entonces
-																					Escribir "Has seleccionado la opción 19"
+																					Escribir "Has seleccionado la opciÃ³n 19"
 																					Escribir "---  Embarques ---"
 																					Ejercicio19
 																				Sino 
 																					Si opc="20" Entonces
-																						Escribir "Has seleccionado la opción 20"
+																						Escribir "Has seleccionado la opciÃ³n 20"
 																						Escribir "---  Costo de viaje de alumnos ---"
 																						Ejercicio20
 																					SiNo
 																						Si opc= "21" Entonces
-																							Escribir "Has seleccionado la opción 21"
+																							Escribir "Has seleccionado la opciÃ³n 21"
 																							Escribir "---  Costo de viajes por tipos de autobuses ---"
 																							Ejercicio21
 																						SiNo
 																							Si opc="22" Entonces
-																								Escribir "Has seleccionado la opción 22"
+																								Escribir "Has seleccionado la opciÃ³n 22"
 																								Escribir "--- Letra de alfabeto  ---"
 																								Ejercicio22
 																							Sino 
 																								Si opc="23" Entonces
-																									Escribir "Has seleccionado la opción 23"
-																									Escribir "--- Vocal, digito, o simbolo de puntuación  ---"
+																									Escribir "Has seleccionado la opciÃ³n 23"
+																									Escribir "--- Vocal, digito, o simbolo de puntuaciÃ³n  ---"
 																									Ejercicio23
 																								Sino 
 																									Si opc="24" Entonces
-																										Escribir "Has seleccionado la opción 24"
-																										Escribir "--- Comparación de carácteres  ---"
+																										Escribir "Has seleccionado la opciÃ³n 24"
+																										Escribir "--- ComparaciÃ³n de carÃ¡cteres  ---"
 																										Ejercicio24
 																									Sino 
 																										Si opc="25"Entonces
-																											Escribir "Has seleccionado la opción 24"
+																											Escribir "Has seleccionado la opciÃ³n 24"
 																											Escribir "--- Frases ---"
 																											Ejercicio25
 																										SiNo
@@ -183,7 +183,7 @@ Funcion principal
 		Fin Si
 FinFuncion
 
-//1. Mayor de cinco números: Solicita tres números y determina cuál es el mayor de ellos.
+//1. Mayor de cinco nÃºmeros: Solicita tres nÃºmeros y determina cuÃ¡l es el mayor de ellos.
 //Entrada:	numero1(leer) numero2(leer) numero3(leer)
 //Proceso:	Si numero1 > num2ero Y nummero1 > numero3
 //				Numero1 es mayor
@@ -194,14 +194,14 @@ FinFuncion
 //					numero3 es mayor
 //Salida:	numero1,numero2,numero3
 Funcion Ejercicio1 
-	//Mayor de cinco números: 
-	//Solicita tres números y determina cuál es el mayor de ellos.
+	//Mayor de cinco nÃºmeros: 
+	//Solicita tres nÃºmeros y determina cuÃ¡l es el mayor de ellos.
 	Definir num1, num2, num3 Como Real
-	Escribir "Ingrese el primer número:"
+	Escribir "Ingrese el primer nÃºmero:"
 	Leer num1
-	Escribir "Ingrese el segundo número:"
+	Escribir "Ingrese el segundo nÃºmero:"
 	Leer num2
-	Escribir "Ingrese el tercer número:"
+	Escribir "Ingrese el tercer nÃºmero:"
 	Leer num3
 	Si num1 > num2 Y num1 > num3 Entonces
 		Escribir "El mayor es: ", num1
@@ -214,7 +214,7 @@ Funcion Ejercicio1
 	FinSi
 FinFuncion
 
-//2. Edad mínima para votar: Pregunta la edad del usuario y verifica si es elegible para votar (18 años o más).
+//2. Edad mÃ­nima para votar: Pregunta la edad del usuario y verifica si es elegible para votar (18 aÃ±os o mÃ¡s).
 //Entrada:	edad(leer)
 //Proceso:	Si edad >= 18
 //				puede votar
@@ -222,7 +222,7 @@ FinFuncion
 //				no puede
 //Salida:	edad
 Funcion Ejercicio2 
-	//Edad mínima para votar: Pregunta la edad del usuario y verifica si es elegible para votar (18 años o más).
+	//Edad mÃ­nima para votar: Pregunta la edad del usuario y verifica si es elegible para votar (18 aÃ±os o mÃ¡s).
 	Definir edad_usuario Como Entero
 	Escribir "ingrese edad del usuario:"
 	leer edad_usuario
@@ -233,7 +233,7 @@ Funcion Ejercicio2
 	FinSi
 FinFuncion
 
-//3. Dado dos números verificar si el primero es múltiplo del segundo
+//3. Dado dos nÃºmeros verificar si el primero es mÃºltiplo del segundo
 //Entrada:	numero1(leer) numero2(leer)
 //Proceso:	Si numero1 MOD numero2 = 0
 //				Si son multiplos entre ellos
@@ -241,20 +241,20 @@ FinFuncion
 //				No lo son
 //Salida:	mayor
 Funcion Ejercicio3
-	//Dado dos números verificar si el primero es múltiplo del segundo
+	//Dado dos nÃºmeros verificar si el primero es mÃºltiplo del segundo
 	Definir num1, num2 Como Entero
 	Escribir "Ingrese el primer num:"
 	Leer num1
 	Escribir "Ingrese el segundo num:"
 	Leer num2
 	Si num1 MOD num2 = 0 Entonces
-		Escribir num1, " es múltiplo de ", num2
+		Escribir num1, " es mÃºltiplo de ", num2
 	SiNo
-		Escribir num1, " no es múltiplo de ", num2
+		Escribir num1, " no es mÃºltiplo de ", num2
 	FinSi
 FinFuncion
 
-//4. Número positivo, negativo o cero: Pide al usuario que ingrese un número y muestra si es positivo, negativo o cero.
+//4. NÃºmero positivo, negativo o cero: Pide al usuario que ingrese un nÃºmero y muestra si es positivo, negativo o cero.
 //Entrada:	numero(leer)
 //Proceso:	Si numero > 0
 //				Es mayor a cero
@@ -266,11 +266,11 @@ FinFuncion
 //						numero es igual a 0
 //Salida:	numero
 Funcion Ejercicio4
-	// Número positivo, negativo o cero: Pide al usuario que ingrese un número 
+	// NÃºmero positivo, negativo o cero: Pide al usuario que ingrese un nÃºmero 
 	//y muestra si es positivo, negativo o cero 
-	Escribir "Inicio del programa: Número"
+	Escribir "Inicio del programa: NÃºmero"
 	Definir mun Como real
-	Escribir "Ingrese un número"
+	Escribir "Ingrese un nÃºmero"
 	Leer num
 	si num > 0 Entonces
 		Escribir "El numero es positivo"
@@ -279,35 +279,35 @@ Funcion Ejercicio4
 			Escribir "El numero es negativo"
 		SiNo
 			si num=0 Entonces
-				escribir "El número es cero"
+				escribir "El nÃºmero es cero"
 			FinSi
 		FinSi
 	Finsi
-	Escribir "Fin del programa: Número"
+	Escribir "Fin del programa: NÃºmero"
 FinFuncion
 
-//5. Año bisiesto: Solicita al usuario un año y determina si es un año bisiesto o no. Un año bisiesto es divisible por 4, pero no por 100, a menos que también sea divisible por 400.
-//Entrada:	año(Leer)
-//Proceso:	Si año % 4 = 0 y (anio % 100 <> 0 o anio % 400 = 0) 
-//				El año es bisiesto
+//5. AÃ±o bisiesto: Solicita al usuario un aÃ±o y determina si es un aÃ±o bisiesto o no. Un aÃ±o bisiesto es divisible por 4, pero no por 100, a menos que tambiÃ©n sea divisible por 400.
+//Entrada:	aÃ±o(Leer)
+//Proceso:	Si aÃ±o % 4 = 0 y (anio % 100 <> 0 o anio % 400 = 0) 
+//				El aÃ±o es bisiesto
 //			SiNo
-//				El año no es bisiesto
-//Salida:	año
+//				El aÃ±o no es bisiesto
+//Salida:	aÃ±o
 Funcion Ejercicio5
-	// 5.	Año bisiesto: 
-	//Solicita al usuario un año y determina si es un año bisiesto o no. Un año bisiesto es divisible por 4, pero no por 100, a menos que también sea divisible por 400.
-	Definir año Como Entero
-    Escribir "Ingrese un año: "
-    Leer año
-    Si año % 4 = 0 y (año % 100 <> 0 o año % 400 = 0) Entonces
-        Escribir "El año ", año, " es bisiesto."
+	// 5.	AÃ±o bisiesto: 
+	//Solicita al usuario un aÃ±o y determina si es un aÃ±o bisiesto o no. Un aÃ±o bisiesto es divisible por 4, pero no por 100, a menos que tambiÃ©n sea divisible por 400.
+	Definir aÃ±o Como Entero
+    Escribir "Ingrese un aÃ±o: "
+    Leer aÃ±o
+    Si aÃ±o % 4 = 0 y (aÃ±o % 100 <> 0 o aÃ±o % 400 = 0) Entonces
+        Escribir "El aÃ±o ", aÃ±o, " es bisiesto."
     Sino
-        Escribir "El año ", año, " no es bisiesto."
+        Escribir "El aÃ±o ", aÃ±o, " no es bisiesto."
     FinSi
 FinFuncion
 
-//6. Pide al usuario que ingrese su mes y día de nacimiento, luego determina su signo zodiacal. Puedes usar una serie de declaraciones if para comparar las fechas ingresadas con las fechas límite de cada signo zodiacal.
-//Entrada:	mes (leer) año(leer)
+//6. Pide al usuario que ingrese su mes y dÃ­a de nacimiento, luego determina su signo zodiacal. Puedes usar una serie de declaraciones if para comparar las fechas ingresadas con las fechas lÃ­mite de cada signo zodiacal.
+//Entrada:	mes (leer) aÃ±o(leer)
 //Proceso:	Si dia >= 20 
 //				Tu signo es Acuario
 //			Sino
@@ -325,17 +325,17 @@ FinFuncion
 //			Sino
 //				Tu signo es Aries
 //			Si dia >= 21 
-//				Tu signo es Géminis
+//				Tu signo es GÃ©minis
 //			Sino
 //				Tu signo es Tauro
 //			Si dia >= 21 
-//				Tu signo es Cáncer
+//				Tu signo es CÃ¡ncer
 //			SiNo
-//				Tu signo es Géminis
+//				Tu signo es GÃ©minis
 //			Si dia >= 23 
 //				Tu signo es Leo
 //			Sino
-//				Tu signo es Cáncer
+//				Tu signo es CÃ¡ncer
 //			Si dia >= 23
 //				Tu signo es Virgo
 //			Sino
@@ -358,10 +358,10 @@ FinFuncion
 //				Tu signo es Sagitario
 //Salida:	mes, dia
 Funcion Ejercicio6
-	//Pide al usuario que ingrese su mes y día de nacimiento, luego determina su signo zodiacal. 
-	//Puedes usar una serie de declaraciones if para comparar las fechas ingresadas con las fechas límite de cada signo zodiacal.
+	//Pide al usuario que ingrese su mes y dÃ­a de nacimiento, luego determina su signo zodiacal. 
+	//Puedes usar una serie de declaraciones if para comparar las fechas ingresadas con las fechas lÃ­mite de cada signo zodiacal.
 	Definir dia, mes Como Entero
-    Escribir "Ingrese su día de nacimiento: "
+    Escribir "Ingrese su dÃ­a de nacimiento: "
     Leer dia
     Escribir "Ingrese su mes de nacimiento (1-12): "
     Leer mes
@@ -392,21 +392,21 @@ Funcion Ejercicio6
             FinSi
         5:
             Si dia >= 21 Entonces
-                Escribir "Tu signo es Géminis."
+                Escribir "Tu signo es GÃ©minis."
             Sino
                 Escribir "Tu signo es Tauro."
             FinSi
         6:
             Si dia >= 21 Entonces
-                Escribir "Tu signo es Cáncer."
+                Escribir "Tu signo es CÃ¡ncer."
             Sino
-                Escribir "Tu signo es Géminis."
+                Escribir "Tu signo es GÃ©minis."
             FinSi
         7:
             Si dia >= 23 Entonces
                 Escribir "Tu signo es Leo."
             Sino
-                Escribir "Tu signo es Cáncer."
+                Escribir "Tu signo es CÃ¡ncer."
             FinSi
         8:
             Si dia >= 23 Entonces
@@ -441,7 +441,7 @@ Funcion Ejercicio6
     FinSegun
 FinFuncion
 
-//7. Solicita al usuario que ingrese un número de día del mes (por ejemplo, del 1 al 31) y verifica si ese día pertenece a la primera quincena (días 1-15) o a la segunda quincena (días 16-31). 
+//7. Solicita al usuario que ingrese un nÃºmero de dÃ­a del mes (por ejemplo, del 1 al 31) y verifica si ese dÃ­a pertenece a la primera quincena (dÃ­as 1-15) o a la segunda quincena (dÃ­as 16-31). 
 //Entrada:	dia(leer)
 //Proceso: Si dia >= 1 y dia <= 15
 //				es la primera quincena
@@ -449,8 +449,8 @@ FinFuncion
 //				la segunda quincena
 //Salida:	dia
 Funcion Ejercicio7
-	//Solicita al usuario que ingrese un número de día del mes (por ejemplo, del 1 al 31) y 
-	//verifica si ese día pertenece a la primera quincena (días 1-15)o a la segunda quincena (días 16-31). 
+	//Solicita al usuario que ingrese un nÃºmero de dÃ­a del mes (por ejemplo, del 1 al 31) y 
+	//verifica si ese dÃ­a pertenece a la primera quincena (dÃ­as 1-15)o a la segunda quincena (dÃ­as 16-31). 
 	Definir dia Como Entero
 	dia = 0
 	Escribir "Ingrese un dia del mes (1 - 31)"; Leer dia
@@ -466,7 +466,7 @@ Funcion Ejercicio7
 	FinSi
 FinFuncion
 
-//8. Día de la semana: Pide al usuario que ingrese un número del 1 al 7, donde 1 representa el domingo, 2 el lunes, 3 el martes, y así sucesivamente. mostrar el nombre del día de la semana correspondiente al número ingresado.
+//8. DÃ­a de la semana: Pide al usuario que ingrese un nÃºmero del 1 al 7, donde 1 representa el domingo, 2 el lunes, 3 el martes, y asÃ­ sucesivamente. mostrar el nombre del dÃ­a de la semana correspondiente al nÃºmero ingresado.
 //Entrada:	dia(leer)
 //Proceso:	Segun dia Hacer
 //				1. domingo
@@ -478,66 +478,66 @@ FinFuncion
 //				7. sabado
 //Salida: dia
 Funcion Ejercicio8 
-	//Día de la semana: 
-	//Pide al usuario que ingrese un número del 1 al 7, donde 1 representa el domingo, 2 el lunes, 3 el martes, y así sucesivamente. 
-	//mostrar el nombre del día de la semana correspondiente al número ingresado.
+	//DÃ­a de la semana: 
+	//Pide al usuario que ingrese un nÃºmero del 1 al 7, donde 1 representa el domingo, 2 el lunes, 3 el martes, y asÃ­ sucesivamente. 
+	//mostrar el nombre del dÃ­a de la semana correspondiente al nÃºmero ingresado.
 	Definir dia Como Entero
-	Escribir "Ingrese un número del 1 al 7 (1=Domingo, 2=Lunes, ...): "
+	Escribir "Ingrese un nÃºmero del 1 al 7 (1=Domingo, 2=Lunes, ...): "
 	Leer dia
 	Si dia < 1 O dia > 7 Entonces
-		Escribir "El número ingresado no es válido. Debe estar entre 1 y 7."
+		Escribir "El nÃºmero ingresado no es vÃ¡lido. Debe estar entre 1 y 7."
 	SiNo
-		Según dia Hacer
+		SegÃºn dia Hacer
 	1: Escribir "Domingo"
 	2: Escribir "Lunes"
 	3: Escribir "Martes"
-	4: Escribir "Miércoles"
+	4: Escribir "MiÃ©rcoles"
 	5: Escribir "Jueves"
 	6: Escribir "Viernes"
-	7: Escribir "Sábado"
+	7: Escribir "SÃ¡bado"
 	FinSegun
 	FinSi
 FinFuncion
 
-//9.	Calculadora de precio con descuento: Crea un programa que permita a un usuario ingresar el precio de un artículo y un porcentaje de descuento. El programa debe calcular y mostrar el precio final después del descuento aplicando el 15% del IVA
+//9.	Calculadora de precio con descuento: Crea un programa que permita a un usuario ingresar el precio de un artÃ­culo y un porcentaje de descuento. El programa debe calcular y mostrar el precio final despuÃ©s del descuento aplicando el 15% del IVA
 //Entrada:	precio(leer) descuento(leer) iva(15% o 0.15) total(calcular) subtotal(calcular)
 //Proceso:	subtotal = precio - (precio * (descuento/100)
 //			total = subtotal + (subtotal * 0.15)
 //Salida:	total
 Funcion Ejercicio9
-	//Calculadora de precio con descuento: Crea un programa que permita a un usuario ingresar el precio de un artículo y un porcentaje de descuento. 
-	//El programa debe calcular y mostrar el precio final después del descuento aplicando el 15% del IVA
+	//Calculadora de precio con descuento: Crea un programa que permita a un usuario ingresar el precio de un artÃ­culo y un porcentaje de descuento. 
+	//El programa debe calcular y mostrar el precio final despuÃ©s del descuento aplicando el 15% del IVA
 	Definir precioOriginal, descuento, precioConDescuento, precioFinal Como Real
 	Definir iva Como Real 
 	iva =0.15
-	Escribir "Ingrese el precio original del artículo: "
+	Escribir "Ingrese el precio original del artÃ­culo: "
 	Leer precioOriginal
 	Escribir "Ingrese el porcentaje de descuento a aplicar: "
 	Leer descuento
 	descuento <- precioOriginal * (descuento / 100)
 	precioConDescuento <- precioOriginal - descuento
 	precioFinal <- precioConDescuento * (1 + iva)
-	Escribir "El precio final del artículo con descuento e IVA es: ", precioFinal
+	Escribir "El precio final del artÃ­culo con descuento e IVA es: ", precioFinal
 FinFuncion
-//10. Calculadora de sueldo con aumento: Pide al usuario que ingrese su salario actual y el porcentaje de aumento que recibirá. Calcula y muestra el nuevo salario después del aumento.
+//10. Calculadora de sueldo con aumento: Pide al usuario que ingrese su salario actual y el porcentaje de aumento que recibirÃ¡. Calcula y muestra el nuevo salario despuÃ©s del aumento.
 //Entrada: sueldo(leer) aumento(leer) total(calcular)
 //Proceso:	total = sueldo + (sueldo * (aumento/100)
 //Salida.	total
 Funcion Ejercicio10 
 	//Calculadora de sueldo con aumento: 
-	//Pide al usuario que ingrese su salario actual y el porcentaje de aumento que recibirá. 
-	//Calcula y muestra el nuevo salario después del aumento.
+	//Pide al usuario que ingrese su salario actual y el porcentaje de aumento que recibirÃ¡. 
+	//Calcula y muestra el nuevo salario despuÃ©s del aumento.
 	Definir salarioActual, porcentajeAumento, aumento, nuevoSalario Como Real
 	Escribir "Ingrese su salario actual: "
 	Leer salarioActual
-	Escribir "Ingrese el porcentaje de aumento (sin el símbolo %): "
+	Escribir "Ingrese el porcentaje de aumento (sin el sÃ­mbolo %): "
 	Leer porcentajeAumento
 	aumento <- salarioActual * (porcentajeAumento / 100)
 	nuevoSalario <- salarioActual + aumento
-	Escribir "Su nuevo salario después del aumento es: ", nuevoSalario
+	Escribir "Su nuevo salario despuÃ©s del aumento es: ", nuevoSalario
 FinFuncion
 
-//11.	Calculadora de compra con múltiples artículos: Permite al usuario ingresar el precio y la cantidad de varios artículos que está comprando. Calcula el total de la compra y aplica un descuento del 10% si el total es mayor a $100.
+//11.	Calculadora de compra con mÃºltiples artÃ­culos: Permite al usuario ingresar el precio y la cantidad de varios artÃ­culos que estÃ¡ comprando. Calcula el total de la compra y aplica un descuento del 10% si el total es mayor a $100.
 //Entrada: 	Precio Unitario(leer), cantidad (Leer), continuar (Leer)
 //			total de compra(Calcular), descuento (Calcular), Total a Pagar(Calcular)
 // Proceso: Repetir 
@@ -556,26 +556,26 @@ FinFuncion
 //   totalPagar <- totalCompra
 //Salida: totalPagar
 Funcion Ejercicio11
-	//Calculadora de compra con múltiples artículos: 
-	//Permite al usuario ingresar el precio y la cantidad de varios artículos que está comprando. 
+	//Calculadora de compra con mÃºltiples artÃ­culos: 
+	//Permite al usuario ingresar el precio y la cantidad de varios artÃ­culos que estÃ¡ comprando. 
 	//Calcula el total de la compra y aplica un descuento del 10% si el total es mayor a $100.
 	Definir precioUnitario, cantidad, totalCompra, descuento, totalPagar Como Real
     Definir continuar Como Caracter
     totalCompra <- 0
     Repetir
-        Escribir "Ingrese el precio unitario del artículo: "
+        Escribir "Ingrese el precio unitario del artÃ­culo: "
         Leer precioUnitario
-        Escribir "Ingrese la cantidad del artículo: "
+        Escribir "Ingrese la cantidad del artÃ­culo: "
         Leer cantidad
         subtotal <- precioUnitario * cantidad
         totalCompra <- totalCompra + subtotal
-        Escribir "¿Desea ingresar otro artículo? (S/N): "
+        Escribir "Â¿Desea ingresar otro artÃ­culo? (S/N): "
         Leer continuar
     Hasta Que continuar <> "S"
     Si totalCompra > 100 Entonces
         descuento <- totalCompra * 0.1
         totalPagar <- totalCompra - descuento
-        Escribir "Se aplicó un descuento de 10%."
+        Escribir "Se aplicÃ³ un descuento de 10%."
     SiNo
         totalPagar <- totalCompra
     FinSi
@@ -583,7 +583,7 @@ Funcion Ejercicio11
 	
 FinFuncion
 
-//12. Calculadora de impuestos sobre el salario: Solicita al usuario que ingrese su salario anual y calcula el impuesto sobre la renta según las siguientes tasas: Hasta $10,000: 5% De $10,001 a $20,000: 10%;  más de $20,000: 15%
+//12. Calculadora de impuestos sobre el salario: Solicita al usuario que ingrese su salario anual y calcula el impuesto sobre la renta segÃºn las siguientes tasas: Hasta $10,000: 5% De $10,001 a $20,000: 10%;  mÃ¡s de $20,000: 15%
 //Entrada:  Salario Anual(Leer)
 //           Impuesto(Calcular )
 //           TasaImpuesto (Calcular)
@@ -594,8 +594,8 @@ FinFuncion
 //Salida: Impuesto 
 Funcion Ejercicio12
 	//Calculadora de impuestos sobre el salario: 
-	//Solicita al usuario que ingrese su salario anual y calcula el impuesto sobre la renta según las siguientes tasas: 
-	//Hasta $10,000: 5% De $10,001 a $20,000: 10%;  más de $20,000: 15%
+	//Solicita al usuario que ingrese su salario anual y calcula el impuesto sobre la renta segÃºn las siguientes tasas: 
+	//Hasta $10,000: 5% De $10,001 a $20,000: 10%;  mÃ¡s de $20,000: 15%
 	Definir salarioAnual, impuesto, tasaImpuesto Como Real
     Escribir "Ingrese su salario anual: $"
     Leer salarioAnual
@@ -612,34 +612,34 @@ Funcion Ejercicio12
     Escribir "El impuesto sobre la renta es: $", impuesto
 FinFuncion
 
-//13.	Pregunta al usuario cuántos años ha estado trabajando en una empresa y calcula su bono de antigüedad. Si ha trabajado más de 5 años, otorga un bono del 5% sobre su salario.
-//Entrada:	año(leer) bono(5% o 0.05) salario(leer) nuevosalario(calcular)
-//Proceso:	Si años >= 5 
+//13.	Pregunta al usuario cuÃ¡ntos aÃ±os ha estado trabajando en una empresa y calcula su bono de antigÃ¼edad. Si ha trabajado mÃ¡s de 5 aÃ±os, otorga un bono del 5% sobre su salario.
+//Entrada:	aÃ±o(leer) bono(5% o 0.05) salario(leer) nuevosalario(calcular)
+//Proceso:	Si aÃ±os >= 5 
 //				bono = salirio * 0.05
 //			SiNo
 //				no aplica a bono
 //			nuevosalario = salario + bono
 //Salida:	nuevosalario
 Funcion Ejercicio13
-	//Pregunta al usuario cuántos años ha estado trabajando en una empresa y calcula su bono de antigüedad.
-	//Si ha trabajado más de 5 años, otorga un bono del 5% sobre su salario.
-	Definir añosTrabajados, salario, bono, nuevoSalario Como Real
-    Escribir "Ingrese los años que ha trabajado en la empresa: "
-    Leer añosTrabajados
+	//Pregunta al usuario cuÃ¡ntos aÃ±os ha estado trabajando en una empresa y calcula su bono de antigÃ¼edad.
+	//Si ha trabajado mÃ¡s de 5 aÃ±os, otorga un bono del 5% sobre su salario.
+	Definir aÃ±osTrabajados, salario, bono, nuevoSalario Como Real
+    Escribir "Ingrese los aÃ±os que ha trabajado en la empresa: "
+    Leer aÃ±osTrabajados
     Escribir "Ingrese su salario: $"
     Leer salario
-    Si añosTrabajados > 5 Entonces
+    Si aÃ±osTrabajados > 5 Entonces
         bono <- salario * 0.05
-        Escribir "Se le otorgará un bono de antigüedad del 5%."
+        Escribir "Se le otorgarÃ¡ un bono de antigÃ¼edad del 5%."
     SiNo
         bono <- 0
-        Escribir "No cumple con los requisitos para el bono de antigüedad."
+        Escribir "No cumple con los requisitos para el bono de antigÃ¼edad."
     FinSi
     nuevoSalario <- salario + bono
     Escribir "Su nuevo salario con el bono es: $", nuevoSalario
 FinFuncion
 
-//14.	Crea un programa que permita al usuario ingresar la distancia de envío y calcule el costo del envío. Si la distancia es inferior a 50 km, el costo es de $10. Si la distancia es de 50 km o más, el costo es de $20.
+//14.	Crea un programa que permita al usuario ingresar la distancia de envÃ­o y calcule el costo del envÃ­o. Si la distancia es inferior a 50 km, el costo es de $10. Si la distancia es de 50 km o mÃ¡s, el costo es de $20.
 //Entrada:	distancia(leer) costoenvio(calcular)
 //Proceso:	si distancia < 49
 //				costo de envio de 10
@@ -647,9 +647,9 @@ FinFuncion
 //				costo de envio de 20
 //Salida:	costoenvio
 funcion Ejercicio14
-	//Crea un programa que permita al usuario ingresar la distancia de envío y calcule el costo del envío. 
+	//Crea un programa que permita al usuario ingresar la distancia de envÃ­o y calcule el costo del envÃ­o. 
 	//Si la distancia es inferior a 50 km, el costo es de $10. 
-	//Si la distancia es de 50 km o más, el costo es de $20.
+	//Si la distancia es de 50 km o mÃ¡s, el costo es de $20.
 	Definir distancia, costo1, costo2 Como Real
 	distancia= 0
 	costo1=10
@@ -657,13 +657,13 @@ funcion Ejercicio14
 	Escribir "Querido usuario, ingrese la distancia de envio (en kilometros ): "
 	leer distancia 
 	Si distancia < 49 Entonces 
-		Escribir "El costo del envìo es de: $", costo1
+		Escribir "El costo del envÃ¬o es de: $", costo1
 	SiNo
 		Escribir "El costo del envio es de: $",costo2
 	FinSi
 FinFuncion
 
-//15. Pide al usuario que ingrese el total de sus compras mensuales durante un año. Si el total es superior a $500, aplica un descuento del 20%. Al final se debe aplicar el IVA del 15%.
+//15. Pide al usuario que ingrese el total de sus compras mensuales durante un aÃ±o. Si el total es superior a $500, aplica un descuento del 20%. Al final se debe aplicar el IVA del 15%.
 //Entrada:	compra(leer) iva(155 o 0.15) descuento(20% o 0.2) total(calcular)
 //Proceso:	compra = compra * 12
 //			si compra > 500
@@ -675,7 +675,7 @@ FinFuncion
 //			total = descuento + iva
 //Saldia:	total
 Funcion Ejercicio15 
-	//Pide al usuario que ingrese el total de sus compras mensuales durante un año. 
+	//Pide al usuario que ingrese el total de sus compras mensuales durante un aÃ±o. 
 	//Si el total es superior a $500, aplica un descuento del 20%. Al final se debe aplicar el IVA del 15%.
 	Definir totalcompras, descuento, iva, totalfinal, totaldescuento,totaliva Como Real
 	totalcompras=0
@@ -683,7 +683,7 @@ Funcion Ejercicio15
 	iva=0
 	totalfinal=0
 	totaldescuento=0
-	Escribir "Querido usuario, ingrese el total de sus compras mensuales durante un año: "
+	Escribir "Querido usuario, ingrese el total de sus compras mensuales durante un aÃ±o: "
 	Leer totalcompras
 	Si totalcompras>500 Entonces 
 		descuento = totalcompras *0.20
@@ -701,10 +701,10 @@ Funcion Ejercicio15
 	Escribir "El total final es: ", totalfinal
 FinFuncion
 
-//16. Permite al usuario ingresar la cantidad de unidades de un producto que va a comprar y el precio unitario. Aplica descuentos por volumen de compra según las siguientes reglas:
+//16. Permite al usuario ingresar la cantidad de unidades de un producto que va a comprar y el precio unitario. Aplica descuentos por volumen de compra segÃºn las siguientes reglas:
 //		20-40 unidades: 15% de descuento
 //		41-90 unidades: 20% de descuento
-//		Más de 90 unidades: 25% de descuento
+//		MÃ¡s de 90 unidades: 25% de descuento
 //		Al costo total debe aplicar el 15% de impuestos
 //Entrada:	cantidad(leer) precio(leer) descuento(0.15, 0.2, 0.25) impuesto(0.15) total(calcular) subtotal(calcular)
 //Proceso:	si cantidad > 20 y cantidad < 40
@@ -720,10 +720,10 @@ FinFuncion
 //Salida:	total
 Funcion Ejercicio16
 	//Permite al usuario ingresar la cantidad de unidades de un producto que va a comprar y el precio unitario. 
-	//Aplica descuentos por volumen de compra según las siguientes reglas:
+	//Aplica descuentos por volumen de compra segÃºn las siguientes reglas:
 	//20-40 unidades: 15% de descuento
 	//41-90 unidades: 20% de descuento
-	//Más de 90 unidades: 25% de descuento
+	//MÃ¡s de 90 unidades: 25% de descuento
 	//Al costo total debe aplicar el 15% de impuestos
 	Definir cantidadunidades, preciounitario, descuento, precio, totaldescuento,impuesto, total como real 
 	cantidadunidades=0
@@ -761,7 +761,7 @@ Funcion Ejercicio16
 	Escribir "Su total es: ", total
 FinFuncion
 
-//17.	Pregunta al usuario cuántas horas de servicio necesita y calcula el costo total. Si las horas son más de 10, aplica un descuento del 20%.
+//17.	Pregunta al usuario cuÃ¡ntas horas de servicio necesita y calcula el costo total. Si las horas son mÃ¡s de 10, aplica un descuento del 20%.
 //Entrada:	hora(leer) costoh(leer) desceunto(20% o 0.2) total(calcular)
 //Proceso:	si hora >= 10
 //				descuento = 0.2
@@ -772,14 +772,14 @@ FinFuncion
 //			total = costoh - (costoh * descuento)
 //Salida:	total
 Funcion Ejercicio17
-	//Pregunta al usuario cuántas horas de servicio necesita y calcula el costo total. 
-	//Si las horas son más de 10, aplica un descuento del 20%.
+	//Pregunta al usuario cuÃ¡ntas horas de servicio necesita y calcula el costo total. 
+	//Si las horas son mÃ¡s de 10, aplica un descuento del 20%.
 	Definir horasservi, costohora, costototal,desc como Real
 	horasservi=0
 	costohora=0
 	costototal=0
 	desc=0
-	Escribir "¿Cuantas horas de servicio necesita?: "
+	Escribir "Â¿Cuantas horas de servicio necesita?: "
 	Leer horasservi
 	Escribir "Ingrese el costo por hora de servicio: "
 	Leer costohora
@@ -795,7 +795,7 @@ Funcion Ejercicio17
 	FinSi
 FinFuncion
 
-//18. "XYZ" es una empresa dedicada a ofrecer  banquetes; sus tarifas son las siguientes: El costo de platillo por persona es de $95.00,  pero si el número de personas es mayor a 200  pero menor o igual a 300, el costo es de $85.00.  Para más de 300 personas el costo por platillo es  de $75.00.
+//18. "XYZ" es una empresa dedicada a ofrecer  banquetes; sus tarifas son las siguientes: El costo de platillo por persona es de $95.00,  pero si el nÃºmero de personas es mayor a 200  pero menor o igual a 300, el costo es de $85.00.  Para mÃ¡s de 300 personas el costo por platillo es  de $75.00.
 //		Se requiere un algoritmo que ayude a determinar  el presupuesto que se debe presentar a los  clientes que deseen realizar un evento aplicando un descuento del 205% con un IVA final del 15%
 //Entrada:	persona(leer) platillo(95, 85, 75) subtotal(calcular) descuento(25% o 0.25) iva(15% o 0.15)
 //Proceso:	Si personas < 200
@@ -839,18 +839,18 @@ Funcion Ejercicio18
 	Escribir "El total final es de: ", totalfinal
 FinFuncion 
 
-//19. La asociación de vinicultores tiene como política fijar un  precio inicial al kilo de uva, la cual se clasifica en tipos A y B,  y además en tamaños 1 y 2. Cuando se realiza la venta del  producto, ésta es de un solo tipo y tamaño, se requiere  determinar cuánto recibirá un productor por la uva que  entrega en un embarque, considerando lo siguiente:
-//		Si es de tipo A, se le cargan $20 al precio inicial cuando es  de tamaño 1; y $30 si es de tamaño 2.
-//		Si es de tipo B, se rebajan $30 cuando es de tamaño 1, y  50 cuando es de tamaño 2.
+//19. La asociaciÃ³n de vinicultores tiene como polÃ­tica fijar un  precio inicial al kilo de uva, la cual se clasifica en tipos A y B,  y ademÃ¡s en tamaÃ±os 1 y 2. Cuando se realiza la venta del  producto, Ã©sta es de un solo tipo y tamaÃ±o, se requiere  determinar cuÃ¡nto recibirÃ¡ un productor por la uva que  entrega en un embarque, considerando lo siguiente:
+//		Si es de tipo A, se le cargan $20 al precio inicial cuando es  de tamaÃ±o 1; y $30 si es de tamaÃ±o 2.
+//		Si es de tipo B, se rebajan $30 cuando es de tamaÃ±o 1, y  50 cuando es de tamaÃ±o 2.
 //Realice un algoritmo para determinar la ganancia obtenida considerando un iva del 15%
-//Entrada:	tipo(A o B) tamaño(1 o 2) precioi(leer) preciof(calcular) total(calcular)
+//Entrada:	tipo(A o B) tamaÃ±o(1 o 2) precioi(leer) preciof(calcular) total(calcular)
 //Proceso: 	Si tipo = A
-//				si tamaño = 1
+//				si tamaÃ±o = 1
 //					preciof = precioi + 20
 //				SiNo
 //					preciof = precioi + 30
 //			SiNo
-//				si tamaño = 1
+//				si tamaÃ±o = 1
 //					preciof = precioi - 30
 //				SiNo
 //					preciof = precioi - 50
@@ -858,21 +858,21 @@ FinFuncion
 //Salida: 	total
 Funcion Ejercicio19
 	Definir tipo Como Caracter
-	Definir tamaño, precioi, preciof, total Como Real
-	tipo = ""; tamaño = 0; precioi = 0; preciof = 0; total = 0
+	Definir tamaÃ±o, precioi, preciof, total Como Real
+	tipo = ""; tamaÃ±o = 0; precioi = 0; preciof = 0; total = 0
 	Escribir "Ingrese el Tipo (A o B): "; Leer tipo
-	Escribir "Ingrese el tamaño (1 o 2): "; Leer tamaño
+	Escribir "Ingrese el tamaÃ±o (1 o 2): "; Leer tamaÃ±o
 	Escribir "Ingrese el precio por kilo: "; Leer precioi
 	Limpiar Pantalla
 	tipo = Mayusculas(tipo)
 	Si tipo = "A" Entonces
-		Si tamaño = 1 Entonces
+		Si tamaÃ±o = 1 Entonces
 			precio = precioi + 20
 		SiNo
 			precio = precioi + 30
 		FinSi
 	SiNo
-		Si tamaño = 1 Entonces
+		Si tamaÃ±o = 1 Entonces
 			precio = precioi - 30
 		SiNo
 			precio = precioi - 50
@@ -880,13 +880,13 @@ Funcion Ejercicio19
 	FinSi
 	total = precio + (precio * 0.15)
 	Escribir "Tipo: ",tipo
-	Escribir "Tamaño: ", tamaño
+	Escribir "TamaÃ±o: ", tamaÃ±o
 	Escribir "Precio Inicial: ",precioi
 	Escribir "Iva: 15%"
 	Escribir "Total: ",total
 FinFuncion
 
-//20. El director de una escuela está organizando un viaje de estudios, y requiere determinar cuánto debe cobrar a cada alumno y cuánto debe pagar a la compañía de viajes por el servicio. La forma de cobrar es la siguiente: si son 200 alumnos o más, el costo por cada alumno es de $20.00; de 100 a 199 alumnos, el costo es de $30.00, de 50 a 99, de $40.00, y si son menos de 50, el costo de la renta del autobús es de $50 y si son menos de 20 el costo es $2000, sin importar el número de alumnos.
+//20. El director de una escuela estÃ¡ organizando un viaje de estudios, y requiere determinar cuÃ¡nto debe cobrar a cada alumno y cuÃ¡nto debe pagar a la compaÃ±Ã­a de viajes por el servicio. La forma de cobrar es la siguiente: si son 200 alumnos o mÃ¡s, el costo por cada alumno es de $20.00; de 100 a 199 alumnos, el costo es de $30.00, de 50 a 99, de $40.00, y si son menos de 50, el costo de la renta del autobÃºs es de $50 y si son menos de 20 el costo es $2000, sin importar el nÃºmero de alumnos.
 //Entrada:	alumno(leer) costo(leer) total(calcular) pasaje(20, 30, 40, 50, dividir para 2000) descuento(10% o 0.10)
 //Proceso: 	Si alumno >= 200
 //				pasaje = 20
@@ -931,10 +931,10 @@ Funcion Ejercicio20
 	total = costo - (costo * 0.10)
 	Escribir "Pasaje por alumno: ",pasaje
 	Escribir "Descuento: 10%"
-	Escribir "Total a pagar a la compañia de viajes: ",total
+	Escribir "Total a pagar a la compaÃ±ia de viajes: ",total
 FinFuncion
 
-//21.	Una compañía de viajes cuenta con tres tipos de autobuses (A, B y C), cada uno tiene un precio por kilómetro recorrido por persona, los costos respectivos son $2.0, $2.5 y $3.0.
+//21.	Una compaÃ±Ã­a de viajes cuenta con tres tipos de autobuses (A, B y C), cada uno tiene un precio por kilÃ³metro recorrido por persona, los costos respectivos son $2.0, $2.5 y $3.0.
 //Entrada:	tbus(A, B, o C) personas(Leer) costot(calcular) kilometros(leer) costo(2, 2.5, 3) iva(15% o 0.15)
 //Proceso:	si tbus = A
 //				costo = 2
@@ -985,7 +985,7 @@ Funcion Ejercicio21
 	FinSi
 FinFuncion
 
-//22. Dado un carácter indicar si es una letra del alfabeto
+//22. Dado un carÃ¡cter indicar si es una letra del alfabeto
 //Entrada:	letra(leer)
 //Proceso:	Si letra >= "A" y letra <= "Z" 
 //				La letra ingresado es una letra del alfabeto
@@ -1004,21 +1004,21 @@ Funcion Ejercicio22
 	FinSi
 FinFuncion
 
-//23. Dado un carácter muestre si es una vocal o es un digito o es un símbolo de puntuación (".", ",",";",":") o un espacio (" ")
+//23. Dado un carÃ¡cter muestre si es una vocal o es un digito o es un sÃ­mbolo de puntuaciÃ³n (".", ",",";",":") o un espacio (" ")
 //Entrada:	car(leer)
 //Proceso:	Si car = "A" o car = "E" o car = "I" o car = "O" o car = "U" Entonces
 //				El valor ingresado es una vocal
 //			SiNo
 //				Si car >= "0" y car <= "9" 
-//					El carácter es un dígito
+//					El carÃ¡cter es un dÃ­gito
 //				SiNo
 //					Si cara= "." o car = "," o car = ";" o car = ":" 
-//						El carácter es un símbolo de puntuación
+//						El carÃ¡cter es un sÃ­mbolo de puntuaciÃ³n
 //					SiNo
 //						Si car = " " 
-//							El carácter es un espacio
+//							El carÃ¡cter es un espacio
 //						SiNo
-//							El carácter es otro tipo de símbolo
+//							El carÃ¡cter es otro tipo de sÃ­mbolo
 //Salida:	car
 Funcion Ejercicio23
 	Definir car Como Caracter
@@ -1029,22 +1029,22 @@ Funcion Ejercicio23
 		Escribir "El valor ingresado es una vocal."
 	SiNo
 		Si car >= "0" y car <= "9" Entonces
-			Escribir "El carácter es un dígito."
+			Escribir "El carÃ¡cter es un dÃ­gito."
 		SiNo
 			Si car = "." o car = "," o car = ";" o car = ":" Entonces
-				Escribir "El carácter es un símbolo de puntuación."
+				Escribir "El carÃ¡cter es un sÃ­mbolo de puntuaciÃ³n."
 			SiNo
 				Si car = " " Entonces
-					Escribir "El carácter es un espacio."
+					Escribir "El carÃ¡cter es un espacio."
 				SiNo
-					Escribir "El carácter es otro tipo de símbolo."
+					Escribir "El carÃ¡cter es otro tipo de sÃ­mbolo."
 				FinSi
 			FinSi
 		FinSi
 	FinSi
 FinFuncion
 
-//24. Dada dos caracteres indicar si son iguales, o si el primer carácter es menor o mayor que el segundo
+//24. Dada dos caracteres indicar si son iguales, o si el primer carÃ¡cter es menor o mayor que el segundo
 //Entrada:	caracter1(leer) caracter2(leer)
 //Proceso:	Si caracter1 = caracter2 
 //				Ambos valores son iguales
@@ -1085,7 +1085,7 @@ Funcion Ejercicio25
 	frase1 = ""; frase2 = ""
 	Escribir "Ingresa una frase: "; Leer frase1
 	Escribir "Ingresa una frase: "; Leer frase2
-	Si a = b Entonces
+	Si frase1 = frase2 Entonces
 		Escribir "Ambas frases son iguales"
 	SiNo
 		Si frase1 > frase2 Entonces
